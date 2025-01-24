@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>実技試験D117</title>
+    <style>
+        .contents{
+            display: flex;
+            background-color: #fff;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .box{
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+        }
+        .text{
+            width: 1000px;
+            background-color: red;
+            color: #fff;
+            margin: 0 auto;
+        }
+        .img-box{
+            text-align: center;
+
+        }
+        
+@media(max-width:767px){
+    .contents{
+        grid-template-columns: 1fr 1fr;
+        }
+}
+    </style>
+</head>
+<body>
+    <div class="contents">
+        <div class="box" alt="テキスト1"></div>
+        <div class="box" alt="テキスト2"></div>
+        <div class="box" alt="テキスト3"></div>
+        <div class="box" alt="テキスト4"></div>
+    </div>
+    <div class="text">文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+        文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+        文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+        文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー文章ダミー
+    </div>
+    <div class="img-box"><img src="img/kapi.webp" alt="カピバラ"></div>
+</body>
+</html>
